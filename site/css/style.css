@@ -15,8 +15,43 @@ body {
 }
 
 #logo-image {
+    background: url('../images/psalmist-logo.png') no-repeat;
     background: no-repeat;
     width: 150px;
     height: 150px;
-    margin: 10px 15px 10px 0;
+    margin-right: auto;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 50px;
+    font-size: larger;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: #951C49;
+    text-align: left;
+}
+
+#nav-list a:hover {
+    background: #e7e7e7;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
 }
